@@ -1,0 +1,117 @@
+{
+    "papeleria": [
+        { 
+        "id": 1, 
+        "imagenes": ["img/img-1.jpg", "img/img-2.jpg", "img/img-3.jpg"], 
+        "nombre": "Agendas Personalizadas", 
+        "precio": "$precio", 
+        "descripcion": "Descripción ...", 
+        "pago1": "#", 
+        "pago2": "#" 
+    },
+        { 
+        "id": 2, 
+        "imagenes": ["img/img-1.jpg", "img/img-2.jpg", "img/img-3.jpg"], 
+        "nombre": "Stickers", 
+        "precio": "$precio", 
+        "descripcion": "Descripción ...", 
+        "pago1": "#", 
+        "pago2": "#" 
+    },
+        { 
+        "id": 3, 
+        "imagenes": ["img/img-1.jpg", "img/img-2.jpg", "img/img-3.jpg"], 
+        "nombre": "Triptícos", 
+        "precio": "$precio", 
+        "descripcion": "Descripción ...", 
+        "pago1": "#", 
+        "pago2": "#" 
+    },
+        { 
+        "id": 4, 
+        "imagenes": ["img/img-1.jpg", "img/img-2.jpg", "img/img-3.jpg"], 
+        "nombre": "Calendarios", 
+        "precio": "$precio", 
+        "descripcion": "Descripción ...", 
+        "pago1": "#", 
+        "pago2": "#" 
+    }
+      
+    ],
+    "personalizacion": [
+        { 
+            "id": 1, 
+            "imagenes": ["img/img-1.jpg", "img/img-2.jpg", "img/img-3.jpg"], 
+            "nombre": "Tarjetas", 
+            "precio": "$precio", 
+            "descripcion": "Descripción ...", 
+            "pago1": "#", 
+            "pago2": "#" 
+        },
+            { 
+            "id": 2, 
+            "imagenes": ["img/img-1.jpg", "img/img-2.jpg", "img/img-3.jpg"], 
+            "nombre": "Llaveros", 
+            "precio": "$precio", 
+            "descripcion": "Descripción ...", 
+            "pago1": "#", 
+            "pago2": "#" 
+        },
+            { 
+            "id": 3, 
+            "imagenes": ["img/img-1.jpg", "img/img-2.jpg", "img/img-3.jpg"], 
+            "nombre": "Cajas", 
+            "precio": "$precio", 
+            "descripcion": "Descripción ...", 
+            "pago1": "#", 
+            "pago2": "#" 
+        },
+            { 
+            "id": 4, 
+            "imagenes": ["img/img-1.jpg", "img/img-2.jpg", "img/img-3.jpg"], 
+            "nombre": "Invitaciones", 
+            "precio": "$precio", 
+            "descripcion": "Descripción ...", 
+            "pago1": "#", 
+            "pago2": "#" 
+        }       
+    ],
+    "sublimacion": [
+        { 
+            "id": 1, 
+            "imagenes": ["img/img-1.jpg", "img/img-2.jpg", "img/img-3.jpg"], 
+            "nombre": "Bolsos", 
+            "precio": "$precio", 
+            "descripcion": "Descripción ...", 
+            "pago1": "#", 
+            "pago2": "#" 
+        },
+            { 
+            "id": 2, 
+            "imagenes": ["img/img-1.jpg", "img/img-2.jpg", "img/img-3.jpg"], 
+            "nombre": "Botella Tapa Rosca", 
+            "precio": "$precio", 
+            "descripcion": "Descripción ...", 
+            "pago1": "#", 
+            "pago2": "#" 
+        },
+            { 
+            "id": 3, 
+            "imagenes": ["img/img-1.jpg", "img/img-2.jpg", "img/img-3.jpg"], 
+            "nombre": "Botella con Bombilla", 
+            "precio": "$precio", 
+            "descripcion": "Descripción ...", 
+            "pago1": "#", 
+            "pago2": "#" 
+        },
+            { 
+            "id": 4, 
+            "imagenes": ["img/img-1.jpg", "img/img-2.jpg", "img/img-3.jpg"], 
+            "nombre": "Tazas", 
+            "precio": "$precio", 
+            "descripcion": "Descripción ...", 
+            "pago1": "#", 
+            "pago2": "#" 
+        }       
+    ]       
+}

@@ -1,0 +1,94 @@
+.navbar {
+    background: linear-gradient(90deg, 
+        rgba(255, 179, 186, 0.7), 
+        rgba(255, 223, 186, 0.7), 
+        rgba(255, 255, 186, 0.7), 
+        rgba(186, 255, 201, 0.7), 
+        rgba(186, 225, 255, 0.7), 
+        rgba(204, 186, 255, 0.7), 
+        rgba(255, 186, 236, 0.7));
+    background-size: 400% 400%;
+    animation: gradientAnimation 10s ease infinite;
+    border-bottom: 4px solid rgba(255, 255, 255, 0.3);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+ body {
+    background-color: #f8f9fa;
+    font-family: 'Georgia', serif;
+}
+
+.section-title {
+    text-align: left;
+    margin: 40px 0;
+    font-size: 2rem;
+    color: #333;
+}
+
+.card {
+    transition: transform 0.3s;
+}
+.card:hover {
+    transform: scale(1.05);
+}
+
+.botts {
+    width: 100%; /* Que ocupe todo el ancho */
+}
+
+.botts a {
+    display: block; /* Para que el botón ocupe toda la base */
+    width: 100%;
+    text-align: center; /* Centra el texto */
+    padding: 10px 0; /* Espaciado vertical */color:black; /* Color del texto */
+    text-decoration: none; /* Elimina subrayado del enlace */
+    font-weight: bold;
+    border-radius: 0 0 5px 5px; /* Ajusta los bordes inferiores */
+    background: linear-gradient(90deg, 
+        rgba(255, 179, 186, 0.7), 
+        rgba(255, 223, 186, 0.7), 
+        rgba(255, 255, 186, 0.7), 
+        rgba(186, 255, 201, 0.7), 
+        rgba(186, 225, 255, 0.7), 
+        rgba(204, 186, 255, 0.7), 
+        rgba(255, 186, 236, 0.7));
+    background-size: 400% 400%;
+    animation: gradientAnimation 10s ease infinite;
+    border-bottom: 4px solid rgba(255, 255, 255, 0.3);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Efecto de animación de degradado */
+@keyframes gradientAnimation {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+    
+
+
+.botts a:hover {
+    background-color: #0056b3; /* Efecto hover */
+}
+
+.footer {
+    background: linear-gradient(90deg, 
+        rgba(255, 179, 186, 0.7), 
+        rgba(255, 223, 186, 0.7), 
+        rgba(255, 255, 186, 0.7), 
+        rgba(186, 255, 201, 0.7), 
+        rgba(186, 225, 255, 0.7), 
+        rgba(204, 186, 255, 0.7), 
+        rgba(255, 186, 236, 0.7));
+    background-size: 400% 400%;
+    animation: gradientAnimation 10s ease infinite;
+    border-bottom: 4px solid rgba(255, 255, 255, 0.3);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Efecto de animación de degradado */
+@keyframes gradientAnimation {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
