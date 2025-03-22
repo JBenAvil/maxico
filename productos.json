@@ -2,38 +2,34 @@
     "papeleria": [
         { 
         "id": 1, 
-        "imagenes": ["img/img-1.jpg", "img/img-2.jpg", "img/img-3.jpg"], 
-        "nombre": "Agendas Personalizadas", 
-        "precio": "$precio", 
-        "descripcion": "Descripción ...", 
-        "pago1": "#", 
+        "imagenes": ["../static/agendas/agenda.jpg", "../static/agendas/agenda1.jpg", "../static/agendas/agenda2.jpg"], 
+        "nombre": "Agendas", 
+        "precio": "$12.000", 
+        "descripcion": "Agendas personalizadas\n\nTamaño A4\n\n100 Hojas\n\nTapa dura\n\nAnillado metálico\n\nElástico y Dije", 
         "pago2": "#" 
     },
         { 
         "id": 2, 
-        "imagenes": ["img/img-1.jpg", "img/img-2.jpg", "img/img-3.jpg"], 
+        "imagenes": ["../static/stickers/sticker.jpg", "../static/stickers/sticker1.jpg", "../static/stickers/sticker2.jpg"], 
         "nombre": "Stickers", 
-        "precio": "$precio", 
-        "descripcion": "Descripción ...", 
-        "pago1": "#", 
+        "precio": "$5.500", 
+        "descripcion": "Sticker Circular Autoadesible\n\nTroquelados\n\n5x5 cm\n\n100 Unidades",  
         "pago2": "#" 
     },
         { 
         "id": 3, 
-        "imagenes": ["img/img-1.jpg", "img/img-2.jpg", "img/img-3.jpg"], 
+        "imagenes": ["../static/triptico/triptico.jpg", "../static/triptico/triptico1.jpg", "../static/triptico/triptico2.jpg"], 
         "nombre": "Triptícos", 
         "precio": "$precio", 
         "descripcion": "Descripción ...", 
-        "pago1": "#", 
         "pago2": "#" 
     },
         { 
         "id": 4, 
-        "imagenes": ["img/img-1.jpg", "img/img-2.jpg", "img/img-3.jpg"], 
+        "imagenes": ["../static/calendario/calendario.jpg", "../static/calendario/calendario1.jpg", "../static/calendario/calendario2.jpg"], 
         "nombre": "Calendarios", 
-        "precio": "$precio", 
-        "descripcion": "Descripción ...", 
-        "pago1": "#", 
+        "precio": "$22.000", 
+        "descripcion": "Calendarios personalizados\n\nMagenéticos\n\n100 Unidades", 
         "pago2": "#" 
     }
       
@@ -41,76 +37,68 @@
     "personalizacion": [
         { 
             "id": 1, 
-            "imagenes": ["img/img-1.jpg", "img/img-2.jpg", "img/img-3.jpg"], 
+            "imagenes": ["../static/tarjetas/tarjetas2.jpg"], 
             "nombre": "Tarjetas", 
-            "precio": "$precio", 
-            "descripcion": "Descripción ...", 
-            "pago1": "#", 
+            "precio": "$17.000", 
+            "descripcion": "Tarjeta de presentación\n\nImpresión 1 cara\n\nMaterial: Opalina\n\n100 Unidades", 
             "pago2": "#" 
         },
             { 
             "id": 2, 
-            "imagenes": ["img/img-1.jpg", "img/img-2.jpg", "img/img-3.jpg"], 
+            "imagenes": ["../static/llavero/llavero.jpg", "../static/llavero/llavero1.jpg", "../static/llavero/llavero2.jpg"],
             "nombre": "Llaveros", 
-            "precio": "$precio", 
-            "descripcion": "Descripción ...", 
-            "pago1": "#", 
+            "precio": "$700", 
+            "descripcion": "Llaveros personalizados\n\nSobre 30 Unidades $550 c/u", 
             "pago2": "#" 
         },
             { 
             "id": 3, 
-            "imagenes": ["img/img-1.jpg", "img/img-2.jpg", "img/img-3.jpg"], 
+            "imagenes": ["../static/cajas/cajas.jpg", "../static/cajas/cajas2.jpg"], 
             "nombre": "Cajas", 
             "precio": "$precio", 
-            "descripcion": "Descripción ...", 
-            "pago1": "#", 
+            "descripcion": "Descripción ...",  
             "pago2": "#" 
         },
             { 
             "id": 4, 
-            "imagenes": ["img/img-1.jpg", "img/img-2.jpg", "img/img-3.jpg"], 
+            "imagenes": ["../static/invitacion/invitacion.jpg", "../static/invitacion/invitacion2.jpg"], 
             "nombre": "Invitaciones", 
             "precio": "$precio", 
             "descripcion": "Descripción ...", 
-            "pago1": "#", 
             "pago2": "#" 
         }       
     ],
     "sublimacion": [
         { 
             "id": 1, 
-            "imagenes": ["img/img-1.jpg", "img/img-2.jpg", "img/img-3.jpg"], 
+            "imagenes": ["../static/bolso/bolso.jpg", "../static/bolso/bolso1.jpg", "../static/bolso/bolso2.jpg"], 
             "nombre": "Bolsos", 
-            "precio": "$precio", 
-            "descripcion": "Descripción ...", 
-            "pago1": "#", 
+            "precio": "$1.800", 
+            "descripcion": "Bolsa personalizada\n\nBiestrech\n\nTamaño: 20x25 cm\n\nCon manilla\n\nSobre 30 Unidades $1.600", 
             "pago2": "#" 
         },
             { 
             "id": 2, 
-            "imagenes": ["img/img-1.jpg", "img/img-2.jpg", "img/img-3.jpg"], 
+            "imagenes": ["../static/botella/botella.jpg", "../static/botella/botella1.jpg", "../static/botella/botella2.jpg"], 
             "nombre": "Botella Tapa Rosca", 
-            "precio": "$precio", 
-            "descripcion": "Descripción ...", 
-            "pago1": "#", 
+            "precio": "$5.000", 
+            "descripcion": "Botella personalizada\n\nTapa rosca",  
             "pago2": "#" 
         },
             { 
             "id": 3, 
-            "imagenes": ["img/img-1.jpg", "img/img-2.jpg", "img/img-3.jpg"], 
+            "imagenes": ["../static/botellas/botellas.jpg", "../static/botellas/botellas1.jpg", "../static/botellas/botellas2.jpg"], 
             "nombre": "Botella con Bombilla", 
-            "precio": "$precio", 
-            "descripcion": "Descripción ...", 
-            "pago1": "#", 
+            "precio": "$6.000", 
+            "descripcion": "Botella personalizada\n\nCon bombilla", 
             "pago2": "#" 
         },
             { 
             "id": 4, 
-            "imagenes": ["img/img-1.jpg", "img/img-2.jpg", "img/img-3.jpg"], 
+            "imagenes": ["../static/tazon/tazon.jpg", "../static/tazon/tazon1.jpg"], 
             "nombre": "Tazas", 
-            "precio": "$precio", 
-            "descripcion": "Descripción ...", 
-            "pago1": "#", 
+            "precio": "$3.500", 
+            "descripcion": "Tazones Personalizados\n\n11 oz",  
             "pago2": "#" 
         }       
     ]       

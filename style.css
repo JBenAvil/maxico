@@ -71,6 +71,29 @@
     background-color: #0056b3; /* Efecto hover */
 }
 
+.btn-whatsapp {
+    display: inline-flex;
+    align-items: center;
+    background-color: #25D366;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.btn-whatsapp:hover {
+    background-color: #1EBE5D;
+}
+
+.btn-whatsapp i {
+    margin-right: 8px;
+    font-size: 20px;
+}
+
 .footer {
     background: linear-gradient(90deg, 
         rgba(255, 179, 186, 0.7), 

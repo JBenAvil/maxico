@@ -121,7 +121,7 @@
                   <a class="nav-link" href="#personalizacion"><b>
                   <section style="text-align: center;">
                     <svg xmlns="http://www.w3.org/2000/svg" height="48px" viewBox="0 -960 960 960" width="48px" fill="#8C1AF6"><path d="M580-450h180v-60H580v60Zm0-120h180v-60H580v60ZM200-320h320v-19q0-42-42.5-68.5T360-434q-75 0-117.5 26.5T200-339v19Zm159.92-174q30.08 0 51.58-21.42t21.5-51.5q0-30.08-21.42-51.58t-51.5-21.5q-30.08 0-51.58 21.42t-21.5 51.5q0 30.08 21.42 51.58t51.5 21.5ZM140-160q-24 0-42-18t-18-42v-520q0-24 18-42t42-18h680q24 0 42 18t18 42v520q0 24-18 42t-42 18H140Zm0-60h680v-520H140v520Zm0 0v-520 520Z"/></svg>
-                    <br>Personalización</b></a>
+                    <br>Personal</b></a>
                   </section>
                 </li>
 
@@ -167,8 +167,9 @@
                 <h2 id="producto-nombre"></h2>
                 <p id="producto-descripcion"></p>
                 <h4 id="producto-precio"></h4>
-                <a id="pago1" class="btn btn-primary" href="#">Comprar 1</a>
-                <a id="pago2" class="btn btn-success" href="#">Comprar 2</a>
+                <a id="pago2" class="btn-whatsapp" href="#">
+                  <i class="fab fa-whatsapp"></i> Solicitar por WhatsApp
+              </a>
             </div>
         </div>
     </div>
@@ -187,10 +188,21 @@
 
             if (producto) {
                 document.getElementById("producto-nombre").textContent = producto.nombre;
-                document.getElementById("producto-descripcion").textContent = producto.descripcion;
+                document.getElementById("producto-descripcion").innerHTML = producto.descripcion.replace(/\n/g, "<br>");
                 document.getElementById("producto-precio").textContent = producto.precio;
-                document.getElementById("pago1").href = producto.pago1;
                 document.getElementById("pago2").href = producto.pago2;
+                // Número de WhatsApp al que se enviará el mensaje (reemplázalo con el real)
+                const numeroWhatsApp = "56983307327"; // Debe ser en formato internacional sin el "+"
+
+                // Obtener el botón y modificar su enlace
+                document.getElementById("pago2").href = generarEnlaceWhatsApp(producto);
+
+                // Función para generar el enlace de WhatsApp con el mensaje prellenado
+                function generarEnlaceWhatsApp(producto) {
+                    const mensaje = `Hola, estoy interesado en el producto: ${producto.nombre}.\nPrecio: ${producto.precio}`;
+                    const url = `https://wa.me/${numeroWhatsApp}?text=${encodeURIComponent(mensaje)}`;
+                    return url;
+}
 
                 const carouselInner = document.getElementById("carousel-images");
                 producto.imagenes.forEach((img, index) => {
