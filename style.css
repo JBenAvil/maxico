@@ -44,31 +44,11 @@
     text-decoration: none; /* Elimina subrayado del enlace */
     font-weight: bold;
     border-radius: 0 0 5px 5px; /* Ajusta los bordes inferiores */
-    background: linear-gradient(90deg, 
-        rgba(255, 179, 186, 0.7), 
-        rgba(255, 223, 186, 0.7), 
-        rgba(255, 255, 186, 0.7), 
-        rgba(186, 255, 201, 0.7), 
-        rgba(186, 225, 255, 0.7), 
-        rgba(204, 186, 255, 0.7), 
-        rgba(255, 186, 236, 0.7));
-    background-size: 400% 400%;
-    animation: gradientAnimation 10s ease infinite;
-    border-bottom: 4px solid rgba(255, 255, 255, 0.3);
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    background-color: #de75f8; /* Color de fondo del botón */ 
 }
-
-/* Efecto de animación de degradado */
-@keyframes gradientAnimation {
-    0% { background-position: 0% 50%; }
-    50% { background-position: 100% 50%; }
-    100% { background-position: 0% 50%; }
-}
-    
-
 
 .botts a:hover {
-    background-color: #0056b3; /* Efecto hover */
+    background-color: #ad3ccc; /* Efecto hover */
 }
 
 .btn-whatsapp {
@@ -115,3 +95,42 @@
     50% { background-position: 100% 50%; }
     100% { background-position: 0% 50%; }
 }
+
+.social-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 60px;
+    margin: 10px;
+    font-size: 28px;
+    border-radius: 50%;
+    color: white;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-decoration: none;
+  }
+
+  .social-btn:hover {
+    transform: scale(1.2);
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.3);
+  }
+
+  .facebook {
+    background-color: #3b5998;
+  }
+
+  .instagram {
+    background: radial-gradient(
+      circle at 30% 107%,
+      #fdf497 0%,
+      #fdf497 5%,
+      #fd5949 45%,
+      #d6249f 60%,
+      #285aeb 90%
+    );
+  }
+
+  .whatsapp {
+    background-color: #25d366;
+  }
