@@ -134,3 +134,37 @@
   .whatsapp {
     background-color: #25d366;
   }
+
+  .footer {
+    padding: 20px;
+  }
+  
+  .footer-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+    gap: 20px;
+  }
+  
+  .footer-col {
+    flex: 1 1 30%;
+    min-width: 250px;
+  }
+  
+  .footer-logo {
+    width: 150px;
+    height: auto;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .footer-row {
+      flex-direction: column;
+      align-items: center;
+    }
+    .footer-col {
+      flex: 1 1 100%;
+      max-width: 100%;
+    }
+  }
+  
