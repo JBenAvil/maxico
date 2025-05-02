@@ -20,8 +20,8 @@
         "id": 3, 
         "imagenes": ["../static/triptico/triptico.jpg", "../static/triptico/triptico1.jpg", "../static/triptico/triptico2.jpg"], 
         "nombre": "Triptícos", 
-        "precio": "$precio", 
-        "descripcion": "Descripción ...", 
+        "precio": "$ variable", 
+        "descripcion": "Triptícos y Diptícos informativos personalizados\n\nDistintos tamañosamaño\n\nPlegado en 3 y 2 partes", 
         "pago2": "#" 
     },
         { 
@@ -55,16 +55,16 @@
             "id": 3, 
             "imagenes": ["../static/cajas/cajas.jpg", "../static/cajas/cajas2.jpg"], 
             "nombre": "Cajas", 
-            "precio": "$precio", 
-            "descripcion": "Descripción ...",  
+            "precio": "$ variable", 
+            "descripcion": "Cajas personalizadas\n\nTamaño y diseño a elección",  
             "pago2": "#" 
         },
             { 
             "id": 4, 
             "imagenes": ["../static/invitacion/invitacion.jpg", "../static/invitacion/invitacion2.jpg"], 
             "nombre": "Invitaciones", 
-            "precio": "$precio", 
-            "descripcion": "Descripción ...", 
+            "precio": "$ variable", 
+            "descripcion": "Invitaciones personalizadas\n\nTamaño y diseño a elección", 
             "pago2": "#" 
         }       
     ],
